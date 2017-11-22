@@ -38,5 +38,8 @@ module.exports = {
   /**
    * Plugins
    */
-  plugins: ['~plugins/vant']
+  plugins: [
+    { src: '~plugins/flexible', ssr: false },
+    { src: '~plugins/vant', ssr: false }
+  ]
 }
