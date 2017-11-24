@@ -40,6 +40,6 @@ module.exports = {
    */
   plugins: [
     { src: '~plugins/flexible', ssr: false },
-    { src: '~plugins/vant', ssr: false }
+    '~plugins/vant'
   ]
 }

@@ -107,8 +107,7 @@
     }
   }
   .btn-area {
-    padding: 0 15px;
-    margin-top: 10px;
+    padding: 15px;
   }
   .goods-list {
     padding: 5px;

@@ -58,7 +58,13 @@
       :disableStepperInput="disableStepperInput"
       @buy-clicked="handleBuyClicked"
       @add-cart="handleAddCartClicked"
-    />
+    >
+      <template slot="sku-actions">
+        <div class="van-sku-actions">
+          <van-button type="primary" bottomAction @click="handleBuyClicked">下一步</van-button>
+        </div>
+      </template>
+    </van-sku>
   </div>
 </template>
 
