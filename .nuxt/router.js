@@ -3,10 +3,10 @@ import Router from 'vue-router'
 
 Vue.use(Router)
 
-const _22448f3e = () => import('../pages/index.vue' /* webpackChunkName: "pages/index" */).then(m => m.default || m)
-const _5426100c = () => import('../pages/user.vue' /* webpackChunkName: "pages/user" */).then(m => m.default || m)
-const _f5a7395c = () => import('../pages/detail.vue' /* webpackChunkName: "pages/detail" */).then(m => m.default || m)
-const _646bece1 = () => import('../pages/cart.vue' /* webpackChunkName: "pages/cart" */).then(m => m.default || m)
+const _6e2240d6 = () => import('../pages/index.vue' /* webpackChunkName: "pages/index" */).then(m => m.default || m)
+const _36b7b612 = () => import('../pages/user.vue' /* webpackChunkName: "pages/user" */).then(m => m.default || m)
+const _230e2d06 = () => import('../pages/detail.vue' /* webpackChunkName: "pages/detail" */).then(m => m.default || m)
+const _162bfc68 = () => import('../pages/cart.vue' /* webpackChunkName: "pages/cart" */).then(m => m.default || m)
 
 
 
@@ -44,22 +44,22 @@ export function createRouter () {
     routes: [
 		{
 			path: "/",
-			component: _22448f3e,
+			component: _6e2240d6,
 			name: "index"
 		},
 		{
 			path: "/user",
-			component: _5426100c,
+			component: _36b7b612,
 			name: "user"
 		},
 		{
 			path: "/detail",
-			component: _f5a7395c,
+			component: _230e2d06,
 			name: "detail"
 		},
 		{
 			path: "/cart",
-			component: _646bece1,
+			component: _162bfc68,
 			name: "cart"
 		}
     ],
